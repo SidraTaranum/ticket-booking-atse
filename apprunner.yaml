@@ -5,4 +5,4 @@ build:
     build:
       - echo example build command for PHP
 run:
-  command: ./startup.sh
+  command: httpd -DFOREGROUND &
